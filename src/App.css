@@ -1,38 +1,64 @@
 .App {
-  text-align: center;
+  padding: 16px 8px 16px 32px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
+  gap: 6px;
+}
+
+
+.align-items-center {
   align-items: center;
+}
+
+.justify-content-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.message-container {
+  border-bottom: 1px solid 	#EDEADE ;
+  margin: 8px;
+  padding: 4px;
+}
+
+.message-font {
+  color: #848884;
+  font-size: 12px;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
   color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.add-button {
+  background-color: #04AA6D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove-button {
+  background-color: #f44336;
+}
+
+input {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.message-list {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.config {
+  margin: 8px 0 2px 0;
 }

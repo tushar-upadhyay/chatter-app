@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://mapi.harmoney.dev/api/v1/messages'
